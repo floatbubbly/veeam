@@ -1,0 +1,382 @@
+/* media
+----------------------------------------------------------------------------*/
+/* 各解析度原始單位 */
+@media screen and (max-width: 1220px) {
+    .sponsor:last-child .sponIntro, .sponsor:nth-child(5n) .sponIntro{ left: -50%;}
+    .sponsor:last-child .sponIntro:before, .sponsor:nth-child(5n) .sponIntro:before{ left: 45%;}
+}
+@media screen and (max-width: 1200px) {
+    body,html{ font-size: ;}
+    .speakerIntro{ height: 7.2em;}
+    .speakerIntro .td{ height: 7.2em;}
+}
+@media screen and (max-width: 1160px) {
+    body .sponBR{ height: 1px; width: 100%;}
+}
+@media screen and (max-width: 1100px) {
+    .sponsor:nth-child(5n) .sponIntro{ left: 0;}
+    .sponsor:nth-child(5n) .sponIntro:before{ left: 10%;}
+}
+@media screen and (max-width: 1024px) {
+    body,html{ font-size: 48px;}
+    .vLink{ margin-right: 6%;}
+    .anchorBox{ max-width: calc(94% - 6rem);}
+    .anchorBox a{ margin-right: 1.5em;}
+    .anchorBox div:last-child a{ margin-right: 0;}
+}
+@media screen and (max-width: 980px) {
+    body,html{ font-size: 46px;}
+    .sponsor:last-child .sponIntro{ left: -50%;}
+    .sponsor:last-child .sponIntro:before{ left: 45%;}
+}
+@media screen and (max-width: 840px) {
+    body,html{ font-size: 44px;}
+    .mapBox .td{ padding-left: 1.5rem;}
+    .Location-button{ left: 1.5rem;}
+}
+@media screen and (max-width: 800px) {
+    .form .half {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+    .kv .title h1 {
+        font-size: 85px;
+        line-height: 130px;
+    }
+    .kv .title h2 {
+        font-size: 18px;
+        line-height: 28px;
+        margin-top: -25px;
+    }
+    .kv .title .logo {
+        margin-top: 2em;
+    }
+    .form .phone #phone_cc, .form .phone #mobile_cc {
+        width: 25%;
+    }
+}
+@media screen and (max-width: 790px) {
+    body,html{ font-size: 42px;}
+}
+@media screen and (max-width: 768px) {
+    body,html{ font-size: 60px;}
+    .pc{ display: none;}
+    .mobile{ display: block;}
+    
+    /* header
+    ------------------------------------------------------------------------------*/
+    header{}
+    header .container{ padding-top: 0.7rem; padding-bottom: 0.4rem;}
+    .veeamLink{ width: 3.2rem; max-width: 160px; float: none; margin: auto;}
+    
+    /* main
+    -------------------------------------------------------------*/
+    main{}
+    p{ font-size: 0.28rem; line-height: 2.57; margin-bottom: 0.8em;}
+    h5{
+        font-size: 0.48rem; line-height: 1.6rem;
+    }
+        /* crumb */
+    .crumb{}
+
+        /* kv */
+    .kv{}
+    .kv .container{ min-height: 5rem; padding-bottom: 0.6rem;}
+    .kvLogo{ width: 100%; max-width: 470px; margin: 0.6rem auto 0.2rem auto;}
+    h2{ font-size: 0.33rem; font-weight: 100; text-align: center;}
+    h3{ font-size: 0.75rem; font-weight: 100; margin-top: 1rem; text-align: center;}
+    .joinBtn{ font-size: 0.43rem; font-weight: bold; text-align: center; margin-top: 0.8rem;}
+    .joinBtn a{ color: #005f4b; background-color: #93ea20; width: 12.5em; line-height: 2.4; margin: auto;}
+    
+    
+    .vLink{ font-size: 0.29rem; padding: 0.25rem 0; width: 6rem; margin-right: 0;}
+    .vLink img{ width: 1.9rem; max-width: 156px; display: inline-block; vertical-align: middle; margin-bottom: 0rem; margin-right: 0.05rem;}
+    
+    
+    /* 錨點選單 ************************************/
+    .anchorBox{ position: absolute; width: 100%; max-width: none; top: 100%; left: 0; background-color: rgba(147,235,32,0.9);}
+    .anchorBox > div{ display: block; text-align: center}
+    .anchorBox > div a{ color: #414042; font-size: 0.36rem; margin-right: 0; line-height: 2.6;}
+    .anchorBox > div:first-child a{ padding-top: 0.4em;}
+    .anchorBox > div:last-child a{ padding-bottom: 0.4em;}
+    .anchorBox > div a:hover{ color: #414042; background-color: #80d117; text-decoration: none;}
+    
+    .navBtn{ position: absolute; height: 0.5rem; width: 0.5rem; top: 25%; right: 15px; cursor: pointer;}
+    .navBtn span{
+        display: block; position: absolute; width: 100%; height: 4px; background-color: #ffffff;
+        top: calc(50% - 2px); left: 0;
+    }
+    .navBtn span:before, .navBtn span:after{
+        content: ''; display: block;
+        position: absolute; top: -10px; left: 0;
+        width: 100%; height: 4px; background-color: #ffffff;        
+    }
+    .navBtn span:after{ top: auto; bottom: -10px;}
+    
+    
+    /* sec_01 */
+    .sec_01{}
+    .sec_01 .container{ padding-top: 1rem; padding-bottom: 0.7rem;}
+    h4{ font-size: 0.6rem; font-weight: normal; margin-bottom: 0.5rem; text-align: center; line-height: 1.2;}
+    .lb{ width: auto; margin-right: 0; display: block; font-size: 0.3rem; line-height: 3.2;}
+    .rb{ width: auto; display: block;}
+    .rb ul{ list-style: disc; font-size: 0.3rem; margin-left: 1em; display: block;}
+    .rb li{ line-height: 1.8; margin-bottom: 1em;}
+    .rb a{ color: #0000ff; text-decoration: underline;}
+    .rb a:hover{ color: #5f5f5f; text-decoration: none;}
+
+    .sec_01 .joinBtn{ font-size: 0.48rem; margin-top: 0.7rem;}
+    .sec_01 .joinBtn a{ margin: auto; width: 7.7em;}
+
+
+    /* sec_02 */
+    .sec_02{}
+    .sec_02 .container{ padding-bottom: 0.7rem;}
+    .videoBox iframe{ position: absolute; top: 0; left: 0;}
+    
+
+    /* sec_03 */
+    .sec_03{}
+    .sec_03 .container{ padding-bottom: 1.1rem;}
+    .sec_03 .table{ border: 2px solid #005f4b; font-size: 0.28rem; line-height: 1.7; display: block;}
+    .sec_03 .tr, .sec_03 .td{ display: block;}
+    .sec_03 .table p{ font-size: 0.28rem; line-height: 1.7;margin-bottom: 0;}
+    .sec_03 .table .td:nth-child(2){ padding: 0 1em 0em 1em;}
+    .sec_03 .table .td:first-child{
+        width: auto; padding-right: 0; text-align: left; padding: 1em 1em 0 1em;
+        border-right: 1px solid #c9c9c9;
+    }
+    .sec_03 .table .td:last-child{ padding: 0 1em 0.5em 1em; border-bottom: 1px solid #c9c9c9;}
+    .sec_03 .table .tr:first-child .td{ padding-top: 0;}
+    .sec_03 .table .tr:first-child .td:first-child{ padding-top: 0.5rem;}
+    .sec_03 .table .tr:last-child .td{ padding-bottom: 0;}
+    .sec_03 .table .tr:last-child .td:last-child{ padding-bottom: 0.8rem;}
+    span.guest{ display: inline-block; padding-left: 0;}
+    .sec_03 .table li{ padding-left: 0.8em; position: relative;}
+
+    
+    /* sec_04 講者 slide */
+    .sec_04{}
+    .sec_04 .container{ padding-bottom: 0.7rem;}
+    .slidBox{ margin-top: 0.9rem;}
+    .speakerIntro{ background-color: #00b336; margin-top: 0.2rem; font-size: 0.32rem; min-height: 7.2em;}
+    .speakerIntro .td{ padding: 0.2rem 0.5rem; height: calc(7.2em - 0.4rem);}
+    .speakerIntro p{ font-size: 0.32rem; line-height: 1.8; color: #ffffff; margin-bottom: 0;}
+
+    .slidImg{ position: relative; overflow: hidden;}
+    .spIntroTxt{
+        position: absolute; width: 100%; height: 100%; background-color: rgba(67,67,67,0.9);
+        top: 0; left: 0;
+        -webkit-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+    }
+    .spIntroTxt .bigBox{
+        position: absolute; top: 0; left: 0; overflow: hidden; font-size: 0.32rem; color: #ffffff;
+        width: 100%; height: 100%;
+    }
+    .spIntroTxt .bigBox p{ line-height: 1.8; padding: 1em 1em 3em 1em; margin-bottom: 0;}
+    .spIntroTxt .bigBox .scrollBox{ position: absolute; top: 0; left: 0; height: 100%; width: 100%;}
+
+
+    /* sec_05 */
+    .sec_05{ background-color: #f1f1f1;}
+    .sec_05 > .container{ padding-top: 1.1rem; padding-bottom: 0.2rem;}
+    .sec_05 .Tlt{ font-size: 0.48rem; line-height: 1.6; text-align: center; margin-bottom: 0.6rem;}
+    .birdBox{ width: auto; margin-right: 0; display: block; margin-bottom: 0.8rem;}
+    .birdBox:last-child{ margin-right: 0;}
+    .birdBox p{ font-size: 0.34rem; line-height: 2; margin-bottom: 0; color: #414042;}
+    .birdBox p.bold{ font-size: 0.48rem; text-align: center;}
+    .birdImg{
+        width: 3.4rem; height: 3.4rem; margin: 0 auto 0.2rem auto;
+        background-color: #ffffff; border-radius: 50%;
+    }
+    .birdImg img{ max-width: 130px; margin: auto;}
+
+        /* sec_5_2 luckyBox */
+    .sec_5_2{ background-color: #ffffff;}
+    .sec_5_2 .container{ padding-bottom: 0;}
+    .luckyBox{ background-color: #ffffff; padding-top: 1rem; padding-bottom: 0.8rem;}
+    .luckyBox p.Tlt{ font-size: 0.4rem; font-weight: bold; margin-bottom: 0; text-align: center}
+    .luckyBox p{ font-size: 0.3rem; line-height: 2; color: #414042; max-width: none; margin: auto;}
+    .luckyBox .inner-inblock{ margin-top: 0;}
+    .luckyB{ width: auto; text-align: center; display: block; margin-bottom: 1.4rem;}
+    .luB02 .luckyImg{ max-width: 170px;}
+    .luckyImg{ max-width: 160px; width: 80%; margin: 0 auto 0.4rem auto;}
+    .luckyB p{ font-size: 0.34rem; max-width: none; font-family: '微軟正黑體', Microsoft JhengHei, Arial;}
+
+    
+     /* sec_06 */
+    .sec_06{}
+    .sec_06 .container{ padding: 1.1rem 0;}
+    .dataBox{ width: auto; margin-left: 0; display: block;}
+    .dataBox .table{ height: 5.5rem;}
+    .dataBox p{ font-size: 0.82rem;}
+
+    .mapBox{
+        width: auto; display: block;
+        height: 6.95rem; margin-bottom: 0.3rem;
+    }
+    .mapBox .table{ height: 6.95rem;}
+    .mapBox .td{ padding-bottom: 1.8rem; padding-left: 10%;}
+    .mapBox .td > *{}
+    .mapBox p{ margin-bottom: 0; color: #ffffff; font-size: 0.32rem; line-height: 2;}
+    .mapBox p.taipei{ font-size: 0.6rem; line-height: 1; margin-bottom: 0.9rem;}
+    .map{}
+    .Location-button{ left: 10%;}
+
+
+    /* sec_07 */
+    .sec_07{}
+    .sec_07 .container{ padding-top: 1rem; position: relative; z-index: 0;}
+    .sec_07 h5{ margin-bottom: 0.8rem;}
+    .grade{ font-size: 0.48rem; text-align: center;}
+    .sec_07 .inner-inblock{ text-align: center; padding-top: 0.2rem; padding-bottom: 0.6rem; position: relative; z-index: 1;}
+    .sec_07 .inner-inblock:last-child{ z-index: 0;}
+
+    .sponsor{ position: relative; z-index: 2; display: block;}
+
+    .sponImg{ max-width: none; width: auto; position: relative; z-index: 3; margin-bottom: 0.2rem;}
+    .sponImg a{ position: relative; z-index: 4; max-width: 270px; margin: auto;}
+    .sponImg a img{ position: relative; z-index: 5;}
+
+    .sponIntro{ position: relative; width: auto; top: 0; left: 0; z-index: 99; display: block;}
+    .sponIntro p{ font-size: 0.26rem;}
+    .sponIntro:before{ display: none;}
+    .sponsor:last-child .sponIntro{ left: 0;}
+    
+    .tools{ position: absolute; width: 0.6rem; bottom: 0.2rem; left: calc(50% + 135px); z-index: 99; cursor: pointer;}
+    
+    
+     /* sec_08 */
+    .sec_08{}
+    .sec_08 .container{}
+    .sec_08 p{ font-size: 0.3rem; line-height: 2.5; margin-bottom: 0; text-align: left;}
+    .sec_08 p.Tlt{ font-size: 0.48rem; color: #00b336; margin-bottom: 0.4rem; line-height: 1; text-align: center;}
+
+        /* form */
+    form{ margin-top: 0.5rem; font-size: 0.3rem; color: #414042; padding-bottom: 0.7rem;}
+    input{ font-size: 0.26rem; padding: 0.7em 1.5em; margin: 0 auto 0.32rem auto;}    
+    select{
+        font-size: 0.26rem; padding: 0.7em 1.1em; margin: 0 auto 0.32rem auto;
+        line-height: 1.7; display: block;
+    }
+    label.adress{ font-size: 0; display: block; max-width: 770px; margin: 0 auto;}
+    label.adress span{
+        display: inline-block; width: 4em; padding-left: 1.5em; text-align: center; vertical-align: middle; font-size: 0.26rem;
+        margin-bottom: 0.3rem; margin-right: 1em;
+    }
+    label.adress > *{ display: block; margin-right: 0; font-size: 0.26rem; vertical-align: middle}
+    label.adress select{ width: 100%; max-width: 770px;}
+    label.adress input[type="number"]{
+        width: 100%; max-width: 770px; margin-right: 0; display: inline-block; padding: 0.83em 1.5em; font-size: 0.26rem;
+    }
+    label.adress input[type="text"]{ display: block; margin-right: 0;}   
+
+    label.cb{ display: block; margin: 0.4rem auto 0 auto; max-width: 770px; padding-left: 0.6rem;}
+    label.cb01{ margin-top: 0.6rem;}
+    input[type="checkbox"]{display: none;}
+    input[type="checkbox"]+span{
+        background-color: #ffffff; border: 1px solid #00b336;
+        display: block; position: absolute; top: 0.3em; left: 0;
+        margin-right: 10px; margin-top:-1px;
+        width: 0.3rem; height: 0.3rem; line-height:1;
+        z-index: 0;
+    }
+    .submitBox > input{ 
+        width: 7.6em; font-size: 0.48rem;
+        padding: 0;
+        margin: 0.5rem auto 0 auto;
+    }
+
+
+        /* sec_09 */
+    .sec_09{}
+    .sec_09 .container{ padding-top: 0.9rem; padding-bottom: 1rem;}
+    .sec_09 p{ font-size: 0.36rem; max-width: 18em; margin: auto;}
+
+    
+    /* footer ---------------------------------------------*/
+    footer{ font-size: 0.28rem; color: #ffffff;}
+    footer .container{ padding-top: 1rem; padding-bottom: 1rem;}
+    .copyright{ font-size: 0.26rem; color: #9d9d9c; text-align: center;}
+    .l_b{
+       width: auto; float: none;
+    }
+    .tlt{ font-size: 0.28rem; color: #c9c9c9; text-align: center}
+    .lbAbox{
+        margin-bottom: 0.9rem;
+        max-width: none;
+        display: block;
+        margin-top: 0.5rem;
+        text-align: center;
+    }
+    .lbA{
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding-right: 0;
+        width: auto;
+        font-size: inherit;
+        margin-bottom: 1em;
+    }
+    .lbA a{ white-space: nowrap; color: #ffffff; display: block;}
+
+
+    .r_b{
+        max-width: 7.5rem; float: none; margin: auto; width: 100%;
+    }
+    .rbAbox{
+        display: -ms-inline-flex;
+        display: -webkit-inline-box;
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+        flex-wrap: wrap;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        margin-top: 0.5rem;
+    }
+    .rbA{
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding-right: 0;
+        width: 20%;
+        font-size: inherit;
+        margin-bottom: 1em;
+        text-align: center;
+    }
+    .rbA a{ display: inline-block; font-size: 0.6rem; color: #ffffff;}
+    .rbA a:hover{ color: #d9d9d9;}
+
+
+
+
+
+    
+}
+@media screen and (max-width: 640px) {
+    body,html{ font-size: 58px;}
+    
+   
+}
+@media screen and (max-width: 585px) {
+    body,html{ font-size: 56px;}   
+}
+@media screen and (max-width: 480px) {
+    body,html{ font-size: 54px;}
+    .crumb li{ font-size: 0.26rem; color: #ffffff; margin-right: 0.5em;}
+    .crumb li span{ font-size: 0.24rem;}
+    .tools{ position: absolute; width: 0.6rem; bottom: 0.2rem; left: calc(50% + 2.4rem); z-index: 99; cursor: pointer;}
+}
+@media screen and (max-width: 425px) {
+    
+}
+@media screen and (max-width: 360px) {
+    body,html{ font-size: 52px;}
+    .mapBox .td{ padding-left: 5%;}
+    .Location-button{ left: 5%;}
+}
+@media screen and (max-width: 320px) {
+    body,html{ font-size: 50px;}
+    
+}
